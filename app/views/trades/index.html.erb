@@ -1,1 +1,102 @@
 <!-- This is all you -->
+
+<!DOCTYPE html>
+<!-- check each trade to join tables and gather metrics -->
+<% @trades.each do |trade| %>
+	<div class="accordion" id="accordion2">
+		<div class="accordion-group span10 offset2">
+			<div class="accordion-heading">
+  				<h5 style="color:#527BB2" class="accordion-toggle text-center" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+				<!-- this part describes the trades -->
+					<%= trade.trader.name %>:
+					<%= if trade.buy_sell == "S" then " sold " else " bought " end %>
+					<%= number_with_delimiter('%.0f' % trade.volume, delimiter: ",") %> bbl of
+					<%= trade.mtm.name %> 
+					<%= trade.instrument.name %> from 
+					<%= trade.counterparty.name  %> through
+					<%= if trade.brokerage.nil? then "unknown" else trade.brokerage.name end %> for
+					<%= number_to_currency(trade.price, delimiter: ",") %> good through
+					<%= trade.tenor_start.to_formatted_s(:short) %> - 
+					<%= trade.tenor_end.to_formatted_s(:short)  %> to be delivered to
+					<%= if trade.location.nil? then "somewhere" else trade.location.name end %>
+				</h5>
+			</div>
+			<div id="collapseOne" class="accordion-body collapse in">
+  				<div class="accordion-inner span8"> <!-- div for table showing dates, buy/sell, market price and mtm value for each date for duration of trade contract -->
+					<em><small>
+						<%= trade.note.text if !trade.note.nil? %>
+						<span class="pull-right"><%= trade.tag.text %></span>
+					</small></em>
+
+					 <% @mtm_grand_total = 0 %> <!-- sums all mtm values of active trades -->
+					
+					<table class="table span8">
+						<thead>
+						<tr>
+							<th>Date</th>
+							<th>Buy/Sell</th>
+							<th>Volume</th>
+							<th>Trade Price</th>
+							<th>Market Price</th>
+							<th>MTM Value</th>
+						</tr>
+						</thead>
+						<% if trade.tenor_start != trade.tenor_end
+							@market_prices = Mtm.find(trade.mtm.id).prices.where("date between ? and ?", trade.tenor_start.to_datetime, trade.tenor_end.to_datetime)
+						else
+							@market_prices = Mtm.find(trade.mtm.id).prices.where(date: trade.tenor_start.to_datetime)
+						end
+						
+						@mtm_total = 0 %> <!-- total of mtm values during the trade's tenor dates -->
+
+						<% @market_prices.each do |mp| %>
+							<tr>
+								<% if trade.buy_sell == 'S' 
+		      						@mtm_value = trade.volume * (trade.price - mp.market_price)
+		      						@mtm_total += @mtm_value
+		    					else
+		      						@mtm_value = trade.volume * (mp.market_price - trade.price)
+		      						@mtm_total += @mtm_value
+		    					end %>
+		    					
+		    					<td><%= mp.date.to_formatted_s(:short) %></td>
+		    					<td><%= if trade.buy_sell == "S" then "Sell" else "Buy" end  %></td>
+								<td><%= number_with_delimiter('%.0f' % trade.volume, delimiter: ",") %></td>
+								<td><%= number_to_currency(trade.price, delimiter: ",", negative_format: "(%u%n)" )  %></td>
+		    					<td><%= number_to_currency(mp.market_price, delimiter: ",", negative_format: "(%u%n")  %></td>
+		    					<td><%= number_to_currency(@mtm_value, negative_format: "(%u%n)") %></td>
+		    					
+							</tr>
+								<% end %>
+							<% @mtm_grand_total += @mtm_total %>		
+					</table>
+					<div class="text-center">
+						<p>Sum of MTM Values: <%= number_to_currency(@mtm_total, negative_format: "(%u%n)") %> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<% end %>
+<div>
+	<strong><p style="color:red" class="text-left">Sum of all trade MTMs: <%= number_to_currency(@mtm_grand_total, negative_format: "(%u%n)") %></p></strong>
+</div>
+
+<% 
+# This is to check the value of the portfolio after all trades have settled
+# @trades.each do |trade|
+# 	@final_market_price = Mtm.find(trade.mtm.id).prices.where(date: trade.tenor_end.to_datetime) 
+# 	@final_portfolio_balance = 0
+# 	@final_mtm_total = 0
+# 	@final_market_price.each do |final_mp|
+# 		if trade.buy_sell == "S"
+# 			@mtm_sale_value = trade.volume * (trade.price - final_mp.market_price)
+# 			@final_mtm_total += @mtm_sale_value
+# 		else
+# 			@mtm_buy_value = trade.volume * (final_mp.market_price - trade.price)
+# 			@final_mtm_total += @mtm_buy_value
+# 		end
+# 	end
+# 	@final_portfolio_balance += @final_mtm_total
+# end 
+%>

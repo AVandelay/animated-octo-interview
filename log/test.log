@@ -1,0 +1,321 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (14.4ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb57772d470,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb57772d3f8,'0.999E1',18(18)>]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5772134a8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb577213408,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5772dae90,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb5776e8b68,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb574525630,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb574524c30,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb57561bed0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb57561b480,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5756a8948,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb5756a8790,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb575329330,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb5753291c8,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb575638f80,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb575638e90,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5756c3270,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb5756c3018,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5772dbe80,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:29 UTC +00:00], ["volume", #<BigDecimal:7fb5772dbcf0,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:29 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.3ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.5ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (76.8ms)
+Completed 500 Internal Server Error in 99ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:30 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb5764d3fe0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:30 UTC +00:00], ["volume", #<BigDecimal:7fb5764d3ec8,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:30 -0700
+Processing by TradesController#index as HTML
+  [1m[36mTrade Load (0.1ms)[0m  [1mSELECT "trades".* FROM "trades" [0m
+  [1m[35mCounterparty Load (0.1ms)[0m  SELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1
+  Rendered trades/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:30 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fb577022dd8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:30 UTC +00:00], ["volume", #<BigDecimal:7fb577022d38,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:30 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.1ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.1ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b25cb48,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b25cad0,'0.999E1',18(18)>]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2bccf0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2bcc78,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2ddc70,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2ddbf8,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2fde30,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2fddb8,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f8489fa4938,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f8489fa48c0,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b36dc58,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b36dbe0,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f8489fd5380,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f8489fd5308,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b37c3e8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b37c370,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b387248,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b3871d0,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b3ae078,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b3ae000,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:56 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.2ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.2ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 103ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f8489e311a0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f8489e31060,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:56 -0700
+Processing by TradesController#index as HTML
+  [1m[36mTrade Load (0.1ms)[0m  [1mSELECT "trades".* FROM "trades" [0m
+  [1m[35mCounterparty Load (0.1ms)[0m  SELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1
+  Rendered trades/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b1619f0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b161900,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b18a418,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b18a3a0,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b1a74f0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b1a7450,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b1c3cb8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b1c3c18,'0.999E1',18(18)>]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b217e08,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b217d68,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b236718,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b236510,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b254ba0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b254ad8,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b27ff80,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b27ff08,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b29e6b0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b29e598,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2b69b8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2b68a0,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2d63d0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2d6358,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f848b2f5b40,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f848b2f5a78,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7f8489fa7548,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Wed, 18 Sep 2013], ["tenor_start", Wed, 18 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:41:56 UTC +00:00], ["volume", #<BigDecimal:7f8489fa74d0,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:41:56 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.2ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.1ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (11.1ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed18af38,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed18ae98,'0.999E1',18(18)>]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed1c36d0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed1c3630,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed1cac50,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed1cabb0,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed1e2828,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed1e27b0,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed1fa518,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed1fa478,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed2120c8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfed212050,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfe893b610,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfe893ae68,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfe9438338,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfe9443fa8,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfe8a80458,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfe8a8b920,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfe976a060,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:52 UTC +00:00], ["volume", #<BigDecimal:7fbfe9769ef8,'0.999E1',18(18)>]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:52:52 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.2ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.2ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (22.4ms)
+Completed 500 Internal Server Error in 35ms
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfeab08a18,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["volume", #<BigDecimal:7fbfeab089a0,'0.999E1',18(18)>]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:52:53 -0700
+Processing by TradesController#index as HTML
+  [1m[36mTrade Load (0.2ms)[0m  [1mSELECT "trades".* FROM "trades" [0m
+  [1m[35mCounterparty Load (0.1ms)[0m  SELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1
+  Rendered trades/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed082780,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["volume", #<BigDecimal:7fbfed082668,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfed0a08e8,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["volume", #<BigDecimal:7fbfed0a0500,'0.999E1',18(18)>]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "trades" ("brokerage_id", "buy_sell", "counterparty_id", "created_at", "instrument_id", "location_id", "mtm_id", "note_id", "price", "tag_id", "tenor_end", "tenor_start", "trader_id", "updated_at", "volume") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["brokerage_id", 1], ["buy_sell", "MyString"], ["counterparty_id", 1], ["created_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["instrument_id", 1], ["location_id", 1], ["mtm_id", 1], ["note_id", 1], ["price", #<BigDecimal:7fbfeabddba0,'0.999E1',18(18)>], ["tag_id", 1], ["tenor_end", Sun, 15 Sep 2013], ["tenor_start", Sun, 15 Sep 2013], ["trader_id", 1], ["updated_at", Fri, 20 Sep 2013 04:52:53 UTC +00:00], ["volume", #<BigDecimal:7fbfeabddb28,'0.999E1',18(18)>]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/trades" for 127.0.0.1 at 2013-09-19 21:52:53 -0700
+Processing by TradesController#index as HTML
+  [1m[35mTrade Load (0.2ms)[0m  SELECT "trades".* FROM "trades" 
+  [1m[36mCounterparty Load (0.1ms)[0m  [1mSELECT "counterparties".* FROM "counterparties" WHERE "counterparties"."id" = 1 LIMIT 1[0m
+  Rendered trades/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 4ms
+  [1m[35m (0.5ms)[0m  rollback transaction
